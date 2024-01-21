@@ -6,11 +6,11 @@
 #    By: gasouza <gasouza@student.42sp.org.br >     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/15 20:42:57 by gasouza           #+#    #+#              #
-#    Updated: 2024/01/18 08:26:25 by gasouza          ###   ########.fr        #
+#    Updated: 2024/01/21 07:13:56 by gasouza          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= battle
+NAME		= violence
 SRCS		= main.cpp HumanA.cpp HumanB.cpp main.cpp  Weapon.cpp
 OBJS		= $(SRCS:.cpp=.o)
 

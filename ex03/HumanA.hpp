@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br >     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/16 08:35:09 by gasouza           #+#    #+#             */
-/*   Updated: 2024/01/18 08:26:47 by gasouza          ###   ########.fr       */
+/*   Updated: 2024/01/21 07:09:09 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ class HumanA
 private:
     Weapon *weapon;
     std::string name;
+    
 public:
     HumanA(const std::string &name, Weapon &weapon);
     void attack();
