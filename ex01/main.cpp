@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br >     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/15 20:41:05 by gasouza           #+#    #+#             */
-/*   Updated: 2024/01/15 21:11:38 by gasouza          ###   ########.fr       */
+/*   Updated: 2024/01/21 06:56:49 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Zombie *zombieHorde(int N, std::string name);
 
 int main()
 {
-    int hordeSize = 12;
+    int hordeSize = 7;
     Zombie *horde = zombieHorde(hordeSize, "Gabriel");
 
     for (int i = 0; i < hordeSize; i++)

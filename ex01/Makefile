@@ -6,11 +6,11 @@
 #    By: gasouza <gasouza@student.42sp.org.br >     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/15 20:42:57 by gasouza           #+#    #+#              #
-#    Updated: 2024/01/15 21:06:08 by gasouza          ###   ########.fr        #
+#    Updated: 2024/01/21 06:56:19 by gasouza          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= zombies
+NAME		= horde
 SRCS		= main.cpp Zombie.cpp zombieHorde.cpp
 OBJS		= $(SRCS:.cpp=.o)
 
