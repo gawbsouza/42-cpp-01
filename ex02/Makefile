@@ -6,11 +6,11 @@
 #    By: gasouza <gasouza@student.42sp.org.br >     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/15 20:42:57 by gasouza           #+#    #+#              #
-#    Updated: 2024/01/15 21:14:51 by gasouza          ###   ########.fr        #
+#    Updated: 2024/01/21 07:02:12 by gasouza          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= strings
+NAME		= memory
 SRCS		= main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 
